@@ -30,6 +30,8 @@ private object LibraryVersions {
     const val lifecycle_common_java8 = "2.4.0"
     const val fragment_ktx = "1.4.0"
     const val constraint_layout = "2.1.2"
+    const val http_logging_interceptor = "4.9.0"
+    const val chucker = "3.5.2"
 }
 
 object Plugins {
@@ -77,7 +79,8 @@ object AndroidTestLibraries {
 }
 
 object DebugLibraries {
-
+    const val http_logging_interceptor = "com.squareup.okhttp3:logging-interceptor:${LibraryVersions.http_logging_interceptor}"
+    const val chucker = "com.github.chuckerteam.chucker:library:${LibraryVersions.chucker}"
 }
 
 object ReleaseLibraries {

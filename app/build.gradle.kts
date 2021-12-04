@@ -68,7 +68,10 @@ dependencies {
     // LIFECYCLE
     implementation(Libraries.lifecycle_runtime_ktx)
     implementation(Libraries.lifecycle_common_java8)
-
+    // HTTP LOGGING INTERCEPTOR
+    debugImplementation(DebugLibraries.http_logging_interceptor)
+    // CHUCKER
+    debugImplementation(DebugLibraries.chucker)
 }
 
 kapt {

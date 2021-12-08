@@ -3,7 +3,7 @@ Collection of common utility classes and setup I use in my Android apps
 
 # Package Structure
     
-    price Tracker    # Root Package
+    base android    # Root Package
     .
     ├── data                      # For data handling.
     │   ├── domain                # Responsible for representing the concepts of business

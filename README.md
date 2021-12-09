@@ -1,7 +1,7 @@
 # base-android
 Collection of common utility classes and setup I use in my Android apps
 
-# Package Structure
+## Package Structure
     
     base android    # Root Package
     .
@@ -30,3 +30,7 @@ Collection of common utility classes and setup I use in my Android apps
     ├── viewmodel                 # responsible for preparing and managing the data 
     |
     └── utils                     # Utility Classes / Kotlin extensions
+
+## Complete the below TODOs while using this project
+
+![Screenshot 2021-12-09 at 12 29 55 PM](https://user-images.githubusercontent.com/25390275/145349789-0af8510e-8e48-41c6-a442-0983eac22826.png)

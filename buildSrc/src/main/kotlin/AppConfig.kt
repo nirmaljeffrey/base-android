@@ -8,5 +8,6 @@ object AppConfig {
     const val jvmTarget = "1.8"
     const val versionName = "1.0"
     const val versionCode = 1
+    // TODO WHEN INHERITING PROJECT RENAME APPLICATION ID
     const val applicationId = "io.github.geeksforgeinc.base_android"
 }

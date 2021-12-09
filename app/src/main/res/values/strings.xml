@@ -1,3 +1,4 @@
 <resources>
+  <!-- TODO RENAME APP NAME -->
   <string name="app_name">base-android</string>
 </resources>

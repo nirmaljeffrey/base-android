@@ -18,6 +18,12 @@ tasks.register("clean", Delete::class) {
     delete(rootProject.buildDir)
 }
 
-apply {
-    from("$rootDir/buildscripts/dependency-graph.gradle")
+apply(from="$rootDir/buildscripts/dependency-graph.gradle")
+plugins {
+    id("scabbard.gradle") version "0.5.0"
+}
+
+scabbard {
+    enabled = true
+    outputFormat = "svg"
 }

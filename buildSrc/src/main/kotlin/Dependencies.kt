@@ -32,6 +32,12 @@ private object LibraryVersions {
     const val constraint_layout = "2.1.2"
     const val http_logging_interceptor = "4.9.0"
     const val chucker = "3.5.2"
+    const val navigation_fragment_ktx = "2.3.5"
+    const val navigation_ui_ktx = "2.3.5"
+    const val hilt_navigation_fragment = "1.0.0"
+    const val mockito = "4.0.0"
+    const val androidx_core_testing = "2.1.0"
+    const val kotlinx_coroutines_test = "1.5.2"
 }
 
 object Plugins {
@@ -59,6 +65,9 @@ object Libraries {
     const val fragment_ktx = "androidx.fragment:fragment-ktx:${LibraryVersions.fragment_ktx}"
     const val lifecycle_common_java8 = "androidx.lifecycle:lifecycle-common-java8:${LibraryVersions.lifecycle_common_java8}"
     const val constraint_layout = "androidx.constraintlayout:constraintlayout:${LibraryVersions.constraint_layout}"
+    const val navigation_fragment_ktx = "androidx.navigation:navigation-fragment-ktx:${LibraryVersions.navigation_fragment_ktx}"
+    const val navigation_ui_ktx = "androidx.navigation:navigation-ui-ktx:${LibraryVersions.navigation_ui_ktx}"
+    const val hilt_navigation_fragment = "androidx.hilt:hilt-navigation-fragment:${LibraryVersions.hilt_navigation_fragment}"
 }
 
 object AnnotationProcessors {
@@ -71,6 +80,9 @@ object AnnotationProcessors {
 object TestLibraries {
     const val junit = "junit:junit:${LibraryVersions.junit}"
     const val room_testing = "androidx.room:room-testing:${LibraryVersions.room_testing}"
+    const val mockito = "org.mockito.kotlin:mockito-kotlin:${LibraryVersions.mockito}"
+    const val androidx_core_testing = "androidx.arch.core:core-testing:${LibraryVersions.androidx_core_testing}"
+    const val kotlinx_coroutines_test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${LibraryVersions.kotlinx_coroutines_test}"
 }
 
 object AndroidTestLibraries {

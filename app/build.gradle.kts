@@ -47,6 +47,7 @@ dependencies {
     kapt(AnnotationProcessors.hilt_android_compiler)
     implementation(Libraries.hilt_lifecycle_viewmodel)
     kapt(AnnotationProcessors.hilt_compiler)
+    implementation(Libraries.hilt_navigation_fragment)
     //APP STARTUP
     implementation(Libraries.app_startup)
     // ROOM
@@ -72,6 +73,15 @@ dependencies {
     debugImplementation(DebugLibraries.http_logging_interceptor)
     // CHUCKER
     debugImplementation(DebugLibraries.chucker)
+    // NAVIGATION COMPONENT
+    implementation(Libraries.navigation_fragment_ktx)
+    implementation(Libraries.navigation_ui_ktx)
+    // MOCKITO
+    testImplementation(TestLibraries.mockito)
+    // CORE TESTING
+    testImplementation(TestLibraries.androidx_core_testing)
+    //KOTLIN COROUTINES TEST
+    testImplementation(TestLibraries.kotlinx_coroutines_test)
 }
 
 kapt {

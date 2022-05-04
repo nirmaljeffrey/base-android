@@ -8,7 +8,8 @@ import io.github.geeksforgeinc.base_android.data.persistance.entity.Entity
 // TODO Replace Entity::class and add exportSchema flag
 @Database(
     entities = [Entity::class],
-    version = AppDatabase.DATABASE_VERSION
+    version = AppDatabase.DATABASE_VERSION,
+    exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
     companion object {

@@ -1,5 +1,5 @@
 private object PluginVersions {
-    const val android_gradle_build_tools = "7.0.1"
+    const val android_gradle_build_tools = "7.1.0"
     const val kotlin_gradle_plugin = "1.5.30"
     const val dagger_hilt_plugin = "2.38.1"
 }
@@ -16,10 +16,10 @@ private object LibraryVersions {
     const val hilt_lifecycle_viewmodel = "1.0.0-alpha03"
     const val hilt_compiler = "1.0.0"
     const val app_Startup = "1.1.0"
-    const val room_runtime =  "2.3.0"
-    const val room_compiler = "2.3.0"
-    const val room_ktx = "2.3.0"
-    const val room_testing = "2.3.0"
+    const val room_runtime =  "2.4.2"
+    const val room_compiler = "2.4.2"
+    const val room_ktx = "2.4.2"
+    const val room_testing = "2.4.2"
     const val timber = "5.0.1"
     const val retrofit = "2.9.0"
     const val retrofit_gson = "2.9.0"
